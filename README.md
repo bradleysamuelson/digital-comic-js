@@ -2,7 +2,7 @@
 
 Version 0.2
 
-DigitalComic.js javascript module using [http://jquery.com/](jQuery) and [http://www.woothemes.com/flexslider/](Flexslider) to create digital native comics. This is pretty raw but you can see it in action [http://sectorfour.lineheight.co](here).
+DigitalComic.js javascript module using [jQuery](http://jquery.com/) and [Flexslider](http://www.woothemes.com/flexslider/) to create digital native comics. This is pretty raw but you can see it in action [here](http://sectorfour.lineheight.co).
 
 -----------------------
 
@@ -19,7 +19,8 @@ Usage instructions and documentation will be created soon.
 
 ### License
 
-Copyright (c) Bradley Samuelson
+Software is Copyright (c) 2014 Bradley Samuelson
+Comic images found in the demo files are Copyright (c) 2014 Bradley Samuelson
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
