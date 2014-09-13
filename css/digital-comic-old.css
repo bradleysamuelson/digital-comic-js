@@ -1,0 +1,208 @@
+.comic, .comic img {
+    width:100%;
+}
+.comic {
+    position:relative;
+}
+.loading .comic {
+    background:#000 !important;
+}
+/*override styles in the flexslider.css file*/
+.flexslider { 
+    margin: 0px; 
+    background:url(../images/last-bg.png) left top no-repeat;
+    background-size:cover;
+    border: 0px solid #fff; 
+    position: relative; 
+    -webkit-border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -o-border-radius: 0px; 
+    border-radius: 0px; 
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    zoom: 1; 
+}
+
+.flex-control-nav {
+    /*background gradient*/
+	background:#666; /* fallback */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#808080), to(#666)); /* Safari 4-5, Chrome 1-9 */
+	background: -webkit-linear-gradient(top, #808080, #666); /* Safari 5.1, Chrome 10+ */
+	background: -moz-linear-gradient(top, #808080, #666); /* Firefox 3.6+ */
+	background: -ms-linear-gradient(top, #808080, #666); /* IE 10 */
+	background: -o-linear-gradient(top, #808080, #666);
+    
+    padding:0;
+    -webkit-border-radius: 0 0 5px 5px; 
+    -moz-border-radius: 0 0 5px 5px; 
+    -o-border-radius: 0 0 5px 5px; 
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    width: 100%; 
+    position: absolute; 
+    bottom: -40px; 
+    text-align: left; 
+    height:40px;
+    padding-top:15px;
+}
+.flex-control-nav li {
+    margin: 0 4px; 
+    zoom: 1; 
+    display:none;
+}
+.flex-control-nav li:first-child {
+    margin-left:10px;
+}
+
+.flex-control-paging li a {
+    width: 6px; 
+    height: 6px; 
+    display: block; 
+    background: #ccc; 
+    background: rgba(0,0,0,0.25); 
+    cursor: pointer; 
+    text-indent: -9999px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -o-border-radius: 10px; 
+    border-radius: 10px; 
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    -moz-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    -o-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+}
+
+/*directional arrows position*/
+.flex-direction-nav .flex-prev { opacity: 1; right: 40px; bottom:-35px;}
+.flex-direction-nav .flex-next { opacity: 1; right: 10px; bottom:-35px;}
+
+.flex-direction-nav a {width:30px; height:30px;}
+.flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 25px; display: inline-block; content: '\f001'; }
+.flex-direction-nav a.flex-next:before  { content: '\f002'; }
+
+.flex-direction-nav .flex-disabled { opacity: .2!important; filter:alpha(opacity=.2); cursor: default; }
+
+
+
+.comic-margin {margin-bottom:60px;}
+
+.episodebuttons{
+    width:200px;
+    height:40px;
+    position:absolute;
+    right:80px;
+    bottom:-40px;
+    z-index: 10;
+    border-right:1px solid #777;
+}
+.nextep, .prevep {
+    float:right;
+    color:#333;
+    z-index: 10;
+    text-decoration: none;
+    display:inline-block;
+    height:40px;
+    width:80px;
+    line-height: 40px;
+    border-left:1px solid #777;
+    font-size:11px;
+    font-family:'Arial', sans-serif;
+    text-align:center;
+}
+.nextep {
+
+}
+.prevep {
+    width:100px;
+}
+.nextep:hover, .prevep:hover {
+    color:#000;
+    background:#666;
+}
+.lastslidecontent {
+    padding:30px;
+}
+.lastslidecontent h2 {
+    font-size:20px;
+    font-weight: bold;
+}
+.latest-subscribe {
+    font-size:13px;
+}
+.continue-btn {
+    display:inline-block;
+    padding:10px;
+    font-size:16px;
+    text-decoration: none;
+    color:#fff;
+    /*background gradient*/
+	background:#666; /* fallback */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#808080), to(#666)); /* Safari 4-5, Chrome 1-9 */
+	background: -webkit-linear-gradient(top, #808080, #666); /* Safari 5.1, Chrome 10+ */
+	background: -moz-linear-gradient(top, #808080, #666); /* Firefox 3.6+ */
+	background: -ms-linear-gradient(top, #808080, #666); /* IE 10 */
+	background: -o-linear-gradient(top, #808080, #666);
+    
+    /*-webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -o-border-radius: 5px; 
+    border-radius: 5px;*/
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    -o-box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    
+}
+.continue-btn:hover {
+    background:#444;
+    color:#fff;
+}
+.supportcontent {
+    font-size:13px;
+    margin-top:40px;
+}
+.supportcontent ul{
+   
+}
+.supportcontent li {
+    margin-left:40px;
+    list-style:disc;
+    font-size:12px;
+    margin-top:10px;
+}
+.hidebuttons {
+    display:none;
+}
+
+.comic-container {
+    padding:0 5px 40px;
+}
+
+
+/*media query for screens over 700px*/
+@media only screen and (min-width: 700px) {
+    /* Style adjustments for viewports that meet the condition */
+    .flex-control-nav li {
+        display: inline-block;
+        *display: inline;
+        margin-top:15px;
+
+    }
+    .flex-direction-nav a {width:20px; height:25px; }
+    .flex-direction-nav a:before  { font-family: "flexslider-icon"; font-size: 20px; display: inline-block; content: '\f001'; }
+    .flex-direction-nav a.flex-next:before  { content: '\f002'; }
+    .flex-direction-nav .flex-prev { bottom:-30px;}
+    .flex-direction-nav .flex-next { bottom:-30px;}
+    .comic {margin:0 auto;}
+}
+
+/*media query for screens over 1000px*/
+@media only screen and (min-width: 1000px) {
+    /* Style adjustments for viewports that meet the condition */
+    .comic {width:1000px;}
+}
